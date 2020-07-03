@@ -19,7 +19,7 @@
 
 2. Gerenciador de pacotes de sua preferencia *(Yarn, NPM...)*
 
-3. Docker (Ou se preferir, instalar os bancos que quiserem)
+3. Docker (Ou se preferir, instalar diretamente os bancos e configurar no controlador de sua escolha)
 
 4. Um controlador de banco de dados a sua escolha.
 
