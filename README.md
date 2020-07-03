@@ -8,19 +8,22 @@
 
  1. Node atualizado
  2. Gerenciador de pacotes de sua preferencia *(Yarn, NPM...)*
- 3. Docker
+ 3. Docker (Ou se preferir, instalar os bancos que quiserem)
  4. Um controlador de banco de dados a sua escolha.
  5. Editor de código-fonte *(VScode, Sublime...)*
 
 # Primeiros passos
 Para instalar as dependências do projeto rode o comando abaixo:
 
-    npm i
-Após rodar a inicialização, e com o docker já instalado rode o seguinte comando
+    yarn
+Após rodar a inicialização, e com o docker já instalado insira no terminal o seguinte comando para criar a instancia do postgres
 
     $ docker run --name nome-postrgres -e POSTGRES_PASSWORD=seupassword -p 5432:5432 -d postgres
 
- 
+E para criar a instância do mongo insira no terminal:
+    $ docker run --name mongodb -p 27017:27017 -d -t mongo
+E para criar a instância do redis insira no terminal:
+    $ docker run --name redis -p 6739:6739 -d -t redis:alpine
 
 ## Logar na aplicação
 
