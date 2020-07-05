@@ -22,7 +22,6 @@ describe('Create User Services Tests', () => {
       lastName: 'Savin',
       password: '1234',
     });
-
     expect(result.user.firstName).toBe('Thiago');
   });
 

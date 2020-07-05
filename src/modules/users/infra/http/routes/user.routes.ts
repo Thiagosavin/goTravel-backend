@@ -10,8 +10,7 @@ userRouter.post(
   celebrate({
     [Segments.BODY]: {
       email: Joi.string().required(),
-      firstName: Joi.string().required(),
-      lastName: Joi.string().required(),
+      name: Joi.string().required(),
       password: Joi.string().required(),
     },
   }),
